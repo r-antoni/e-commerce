@@ -5,8 +5,8 @@ import EyeIcon from '@heroicons/react/24/solid/EyeIcon'
 const ProductItem = ({ item }) => {
   const { id, title, image, description, price, category } = item
   return (
-    <div className='flex flex-col'>
-      <Card >
+    <div className='flex flex-col w-56'>
+      <Card className=''>
         <div className='flex flex-col group'>
           <span className='flex justify-center items-center text-xs uppercase pb-2 text-slate-400 border-b'>
             {category}
