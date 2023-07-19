@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import ProtectedRoute from "./router/ProtectedRoute"
 import PrivateRoute from "./router/PrivateRoute"
 //Pages
-import Landing from "./pages/Landing"
 import Login from "./pages/Login"
 import Register from "./pages/Register"
 import Home from "./pages/Home"
@@ -15,10 +14,6 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Landing />
-      },
-      {
-        path: "login",
         element: <Login />
       },
       {

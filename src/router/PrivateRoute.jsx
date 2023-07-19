@@ -11,5 +11,5 @@ export default function PrivateRoute() {
 		);
 	}
 
-	return <Navigate to="/login" />;
+	return <Navigate to="/" />;
 }                          

@@ -12,7 +12,10 @@ export const HomeLayout = () => {
             <Sidebar />
             <Outlet />
         </div>
-        <Footer />
+        <div>
+          <Footer />
+        </div>
+        
     </div>
   )
 }
