@@ -29,7 +29,7 @@ const Header = () => {
     <div className={`${active ? "bg-white shadow-2xl" : "bg-white border-b"} w-full fixed z-10 transition-all`}>
       <div className="container mx-auto flex justify-between items-center px-10">
         <Link to="/">
-          <img className='w-28 bg-transparent' src={Logo} />
+          <img className='w-28 h-20 bg-transparent' src={Logo} />
         </Link>
         <div className='flex justify-between gap-5'>
           <div className='flex relative max-w-[43px]' onClick={()=> setOpen(!open)}>

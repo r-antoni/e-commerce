@@ -15,7 +15,7 @@ const ProductItem = ({ item }) => {
             {category}
           </span>
           <div className='flex bg-white items-center justify-center py-3 rounded  transition'>
-            <img className='w-40 h-48' src={image} alt={description} />
+            <img className='w-44 h-48' src={image} alt={description} />
           </div>
           <div className='flex justify-around gap-5 absolute px-3 -mt-6'>
             <Link to={`/product/${id}`} className='flex items-center justify-center absolute top-0 right-0 bg-red-400 rounded w-12 h-12 opacity-0 group-hover:opacity-80'>

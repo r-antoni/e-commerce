@@ -7,27 +7,27 @@ const Home = () => {
   const { product } = useContext(ProductContext)
   return (
     <div className='container mx-auto py-20'>
-      <div className='h-[600px] py-10'>
+      <div className='h-[500px] py-10'>
        <Carousel slideInterval={5000}>
       <img
         alt="..."
-        src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
+        src="https://images.tokopedia.net/img/cache/1208/NsjrJu/2023/7/18/0ba3c370-23a9-4390-a955-1677b09aa234.jpg.webp?ect=4g"
       />
       <img
         alt="..."
-        src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
+        src="https://images.tokopedia.net/img/cache/1208/NsjrJu/2023/7/17/1935fb42-c172-49ea-bdd6-1fbd8afcbfd0.jpg.webp?ect=4g"
       />
       <img
         alt="..."
-        src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
+        src="https://images.tokopedia.net/img/cache/1208/NsjrJu/2023/7/19/99f6cf92-4c5d-4742-be53-bc2786c15ab7.jpg.webp?ect=4g"
       />
       <img
         alt="..."
-        src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
+        src="https://images.tokopedia.net/img/cache/1208/NsjrJu/2023/7/14/f7c826c5-6e7a-4eed-93c3-4a4aa6190273.jpg.webp?ect=4g"
       />
       <img
         alt="..."
-        src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
+        src="https://images.tokopedia.net/img/cache/1208/NsjrJu/2023/7/17/1935fb42-c172-49ea-bdd6-1fbd8afcbfd0.jpg.webp?ect=4g"
       />
     </Carousel>
       </div>
