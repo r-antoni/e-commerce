@@ -1,13 +1,13 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 //Routing
-import ProtectedRoute from "./router/ProtectedRoute"
-import PrivateRoute from "./router/PrivateRoute"
+import ProtectedRoute from "./router/ProtectedRoute";
+import PrivateRoute from "./router/PrivateRoute";
 //Pages
-import Login from "./pages/Login"
-import Register from "./pages/Register"
-import Home from "./pages/Home"
-import ProductDetail from "./pages/ProductDetail"
-import Error from "./pages/Error"
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import Home from "./pages/Home";
+import ProductDetail from "./pages/ProductDetail";
+import Error from "./pages/Error";
 
 const router = createBrowserRouter([
   {
@@ -15,40 +15,39 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Login />
+        element: <Login />,
       },
       {
         path: "register",
-        element: <Register />
-      }
-    ]
+        element: <Register />,
+      },
+    ],
   },
   {
     element: <PrivateRoute />,
     children: [
       {
         path: "home",
-        element: <Home />
+        element: <Home />,
       },
       {
         path: "product/:id",
-        element: <ProductDetail />
-      }
-    ]
+        element: <ProductDetail />,
+      },
+    ],
   },
   {
     path: "*",
-    element: <Error />
-  }
-])
+    element: <Error />,
+  },
+]);
 
 function App() {
-
   return (
     <>
       <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
