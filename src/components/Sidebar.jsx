@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import {useContext} from "react";
 import {SidebarContext} from "../context/SidebarContext";
 import {CartContext} from "../context/CartContext";
 import CartItem from "./CartItem";
